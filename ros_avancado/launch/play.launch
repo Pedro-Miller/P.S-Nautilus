@@ -1,0 +1,5 @@
+<launch>
+    <rosparam command= 'load' file='$(find ros_avancado)/sysparam.yaml'/> 
+    <node pkg="ros_avancado" type="solarsys.py" name="solar" output="screen"/>
+     <node pkg="rviz" type="rviz" name="rviz" args='-d /root/catkin_ws2/src/ros_avancado/rviz/default.rviz'/>
+</launch>

@@ -1,0 +1,45 @@
+sun:
+  name: 'sun'
+
+mercury:
+  name: 'mercury'
+  parent: 'sun'
+  radius: 1
+  speed: 1.2
+
+venus:
+  name: 'venus'
+  parent: 'sun'
+  radius: 2
+  speed: 0.5
+
+earth:
+  name: 'earth'
+  parent: 'sun'
+  radius: 3
+  speed: 0.3
+
+moon:
+  name: 'moon'
+  parent: 'earth'
+  radius: 0.5
+  speed: 1.2
+
+mars:
+  name: 'mars'
+  parent: 'sun'
+  radius: 4
+  speed: 0.16
+
+phobos:
+  name: 'phobos'
+  parent: 'mars'
+  radius: 0.7
+  speed: 0.8
+
+deimos:
+  name: 'deimos'
+  parent: 'mars'
+  radius: 0.4
+  speed: 1
+
